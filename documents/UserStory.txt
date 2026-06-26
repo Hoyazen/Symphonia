@@ -1,10 +1,10 @@
 // Authentication //
 
  -> Register <-
-As a guest, i want to create an account so that i can access the application.
+As a guest, I want to create an account so that I can access the application.
 
  -> Log in <-
-As a registered user, i want to log in so that i can access my ensembles and documents.
+As a registered user, I want to log in so that I can access my ensembles and documents.
 
 
 // Ensemble Management //
