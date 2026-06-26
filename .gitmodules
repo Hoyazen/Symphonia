@@ -1,0 +1,6 @@
+[submodule "Symphonia-frontend"]
+	path = Symphonia-frontend
+	url = https://github.com/Hoyazen/Symphonia-frontend
+[submodule "Symphonia-backend"]
+	path = Symphonia-backend
+	url = https://github.com/Hoyazen/Symphonia-backend
