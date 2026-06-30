@@ -15,15 +15,15 @@ As a registered user, I want to log in so that I can access my ensembles and doc
 
 As an User, I want to create an ensemble so that I can organize musicians and songs.
 
-**-> Invite members <-**
+**-> Invite users <-**
 
-As an Ensemble Administrator, I want to invite user so that they can join my ensemble.
+As an Ensemble Administrator, I want to invite users so that they can join my ensemble.
 
 **-> Assign the Partition Manager role <-**
 
 As an Ensemble Administrator, I want to assign the Partition Manager role to a user so that they can manage songs and documents.
 
-**-> Manger members role <-**
+**-> Manger users role <-**
 
 As an Ensemble Administrator, I want to change user's roles so that I can manage permissions within the ensemble.
 
