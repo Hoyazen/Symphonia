@@ -13,30 +13,30 @@ As a registered user, I want to log in so that I can access my ensembles and doc
 
  **-> Create an ensemble <-**
 
-As an Ensemble Administrator, I want to create an ensemble so that I can organize musicians and songs.
+As an User, I want to create an ensemble so that I can organize musicians and songs.
 
 **-> Invite members <-**
 
-As an Ensemble Administrator, I want to invite members so that they can join my ensemble.
+As an Ensemble Administrator, I want to invite user so that they can join my ensemble.
 
 **-> Assign the Partition Manager role <-**
 
-As an Ensemble Administrator, I want to assign the Partition Manager role to a member so that they can manage songs and documents.
+As an Ensemble Administrator, I want to assign the Partition Manager role to a user so that they can manage songs and documents.
 
 **-> Manger members role <-**
 
-As an Ensemble Administrator, I want to change members' roles so that I can manage permissions within the ensemble.
+As an Ensemble Administrator, I want to change user's roles so that I can manage permissions within the ensemble.
 
 
 # Song Management 
 
 **-> Browse song <-**
 
-As a member, I want to browse the song library for my ensemble, so that I can find a specific song.
+As a user, I want to browse the song library for my ensemble, so that I can find a specific song.
 
 **-> View song details <-**
 
-As a member, I want to view a song's details so that I can access its related documents.
+As a user, I want to view a song's details so that I can access its related documents.
 
 **-> Create a song <-**
 
@@ -55,11 +55,11 @@ As a Partition Manager, I want to upload a document so that it is available to t
 
 **-> Assign a document to an instrument or voice <-**
 
-As a Partition Manager, I want to associate a document with one or more instruments or voices so that members can easily find the correct version.
+As a Partition Manager, I want to associate a document with one or more instruments or voices so that user can easily find the correct version.
 
 **-> View documents <-**
 
-As a member, I want to view the documents attached to a song so that I can work on it.
+As a user, I want to view the documents attached to a song so that I can work on it.
 
 **-> Delete a document <-**
 
@@ -70,7 +70,7 @@ As a Partition Manager, I want to delete a document so that outdated files are r
 
 **-> Play audio <-**
 
-As a member, I want to play an audio file directly from the application so that I can rehearse without downloading it.
+As a user, I want to play an audio file directly from the application so that I can rehearse without downloading it.
 
 # Administration 
 
