@@ -1,4 +1,4 @@
-<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><element><id>UMLClass</id><coordinates><x>99</x><y>43</y><w>135</w><h>135</h></coordinates><panel_attributes>bg=yellow
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>120</x><y>120</y><w>150</w><h>150</h></coordinates><panel_attributes>bg=yellow
 User
 --
  - id: UUID
@@ -8,12 +8,12 @@ User
  - password: String
  - isValidated: Boolean
  - createAt : DateTime
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>675</x><y>43</y><w>171</w><h>72</h></coordinates><panel_attributes>bg=red
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>760</x><y>120</y><w>190</w><h>80</h></coordinates><panel_attributes>bg=red
 Ensemble
 --
  - id: UUID
  - nom: String
- - createdAt: DateTime</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>675</x><y>232</y><w>144</w><h>108</h></coordinates><panel_attributes>bg=blue
+ - createdAt: DateTime</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>760</x><y>330</y><w>160</w><h>120</h></coordinates><panel_attributes>bg=blue
 Song
 --
  - id: UUID
@@ -22,19 +22,19 @@ Song
  - description: Text
  - createdAt: DateTime
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>99</x><y>259</y><w>135</w><h>90</h></coordinates><panel_attributes>bg=green
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>360</y><w>150</w><h>100</h></coordinates><panel_attributes>bg=green
 Invitation
 --
  - id: UUID
  - email: String
  - statut: String
- - dateSent: DateTime</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>162</x><y>169</y><w>45</w><h>108</h></coordinates><panel_attributes>lt=-
+ - dateSent: DateTime</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>260</y><w>50</w><h>120</h></coordinates><panel_attributes>lt=-
 m1=0..*
 m2=1
-</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>738</x><y>106</y><w>45</w><h>144</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>830</x><y>190</y><w>50</w><h>160</h></coordinates><panel_attributes>lt=-
 m1=0..*
 m2=1
-</panel_attributes><additional_attributes>10;140;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>675</x><y>430</y><w>144</w><h>117</h></coordinates><panel_attributes>bg=#F5009D
+</panel_attributes><additional_attributes>10;140;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>760</x><y>550</y><w>160</w><h>130</h></coordinates><panel_attributes>bg=#F5009D
 Document
 --
  - id: UUID
@@ -44,36 +44,36 @@ Document
  - filePath: Text
  - addDate: DateTime
  
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>738</x><y>331</y><w>45</w><h>117</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>830</x><y>440</y><w>50</w><h>130</h></coordinates><panel_attributes>lt=-
 m1=0..*
 m2=1
-</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>378</x><y>430</y><w>144</w><h>45</h></coordinates><panel_attributes>bg=#BABABA
+</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>550</y><w>160</w><h>50</h></coordinates><panel_attributes>bg=#BABABA
 DocumentInstrument
 --
  - id: UUID
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>99</x><y>430</y><w>144</w><h>81</h></coordinates><panel_attributes>bg=#00FFD9
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>550</y><w>160</w><h>90</h></coordinates><panel_attributes>bg=#00FFD9
 Instrument
 --
  - id: UID
  - name: String
  - description: String
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>387</x><y>43</y><w>144</w><h>63</h></coordinates><panel_attributes>bg=#FF9D00
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>120</y><w>160</w><h>70</h></coordinates><panel_attributes>bg=#FF9D00
 Belonging
 --
  - role: String
- - joinedAt: DateTime</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>225</x><y>61</y><w>180</w><h>45</h></coordinates><panel_attributes>lt=-
+ - joinedAt: DateTime</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>140</y><w>200</w><h>50</h></coordinates><panel_attributes>lt=-
 m1=0..*
 m2=1
-</panel_attributes><additional_attributes>180;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>522</x><y>61</y><w>171</w><h>45</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>180;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>140</y><w>190</w><h>50</h></coordinates><panel_attributes>lt=-
 m1=0..*
 m2=1
-</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>495</x><y>466</y><w>198</w><h>54</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>590</y><w>220</w><h>60</h></coordinates><panel_attributes>lt=-
 m1=0..*
 m2=0..*
-</panel_attributes><additional_attributes>200;30;10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>234</x><y>466</y><w>198</w><h>54</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>200;30;10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>590</y><w>220</w><h>60</h></coordinates><panel_attributes>lt=-
 m1=0..*
 m2=0..*
-</panel_attributes><additional_attributes>10;30;180;30;180;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>351</x><y>124</y><w>216</w><h>90</h></coordinates><panel_attributes>lt=.
+</panel_attributes><additional_attributes>10;30;180;30;180;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>400</x><y>210</y><w>240</w><h>100</h></coordinates><panel_attributes>lt=.
 Rôles possibles (Belonging.role)
 --
  - MEMBER
